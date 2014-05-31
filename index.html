@@ -9,9 +9,9 @@
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Agnès JERSYK | Exposition les couleurs</title>   
+<title>Agnès JERSYK | Exposition le 14 et 15 juin 2014 : Les couleurs</title>   
 
-<meta name="description" content="Insert Your Site Description" /> 
+<meta name="description" content="Agnès JERSYK. Exposition des travaux de beaux arts de Agnès JERSYK le 14 et 15 juin 2014." /> 
 
 <!-- Mobile Specifics -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,17 +63,14 @@
 <script src="_include/js/modernizr.js"></script>
 
 <!-- Analytics -->
-<script type="text/javascript">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'Insert Your Code']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-51523647-1', 'agnes-jersyk.herokuapp.com');
+  ga('send', 'pageview');
 
 </script>
 <!-- End Analytics -->
@@ -120,11 +117,11 @@
         
         <nav id="menu">
         	<ul id="menu-nav">
-            	<li class="current"><a href="#home-slider">Home</a></li>
-                <li><a href="#work">Our Work</a></li>
-                <li><a href="#about">About Us</a></li>
+            	<li class="current"><a href="#home-slider">Accueil</a></li>
+                <li><a href="#work">Les tableaux</a></li>
+                <li><a href="#about">A propos d'Agnès</a></li>
                 <li><a href="#contact">Contact</a></li>
-				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+				<!--<li><a href="shortcodes.html" class="external">Shortcodes</a></li>-->
             </ul>
         </nav>
         
@@ -139,8 +136,8 @@
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">Our Work</h2>
-                    <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>
+                    <h2 class="title">Les tableaux</h2>
+                    <!--<h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>-->
                 </div>
             </div>
         </div>
@@ -152,11 +149,11 @@
             	<!-- Filter -->
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
+                    	<li class="type-work">Les catégories</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Tous les tableaux</a></li>
+                        <li><a href="#filter" data-option-value=".design">Cat 1</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Cat 2</a></li>
+                        <li><a href="#filter" data-option-value=".video">Cat 3</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -292,8 +289,8 @@
     <div class="row">
         <div class="span12">
             <div class="title-page">
-                <h2 class="title">About Us</h2>
-                <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+                <h2 class="title">A propos d'Agnès JERSYK</h2>
+                <h3 class="title-description">En savoir plus sur Agnès JERSYK.</h3>
             </div>
         </div>
     </div>
@@ -306,21 +303,23 @@
     	<div class="span4 profile">
         	<div class="image-wrap">
                 <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">CTO/Founder</span>
+                    <!--<span class="overlay-img"></span>-->
+                    <!--<span class="overlay-text-thumb">CTO/Founder</span>-->
                 </div>
                 <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
             </div>
-            <h3 class="profile-name">John Doe</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name"></h3>
+            <p class="profile-description">
+            </p>
             	
             <div class="social">
+				<!--
             	<ul class="social-icons">
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
                 </ul>
+                -->
             </div>
         </div>
         <!-- End Profile -->
@@ -329,14 +328,19 @@
     	<div class="span4 profile">
         	<div class="image-wrap">
                 <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Creative Director</span>
+                    <!--<span class="overlay-img"></span>-->
+                    <!--<span class="overlay-text-thumb">CTO/Founder</span>-->
                 </div>
                 <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
             </div>
-            <h3 class="profile-name">Jane Helf</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            
+            <p class="profile-description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
+			    Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, 
+			    id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora 
+			    torquent per conubia nostra, per inceptos himenaeos.
+			</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -351,22 +355,22 @@
     	<div class="span4 profile">
         	<div class="image-wrap">
                 <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
+                    <!--<span class="overlay-img"></span>-->
+                    <!--<span class="overlay-text-thumb">CTO/Founder</span>-->
                 </div>
                 <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Joshua Insanus</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            	
+            <h3 class="profile-name"></h3>
+            <p class="profile-description"></p>
             <div class="social">
+			<!--
             	<ul class="social-icons">
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
                 </ul>
+            -->
             </div>
         </div>
         <!-- End Profile -->
@@ -386,7 +390,7 @@
         <div class="span12">
             <div class="title-page">
                 <h2 class="title">Get in Touch</h2>
-                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+                <h3 class="title-description">Rester en contact avec Agnès!</h3>
             </div>
         </div>
     </div>
@@ -398,16 +402,16 @@
         
         	<form id="contact-form" class="contact-form" action="#">
             	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+            		<input id="contact_name" type="text" placeholder="Nom" value="" name="name" />
                 </p>
                 <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                	<input id="contact_email" type="text" placeholder="Adresse email" value="" name="email" />
                 </p>
                 <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                	<textarea id="contact_message" placeholder="Message" name="message" rows="15" cols="40"></textarea>
                 </p>
                 <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                	<a id="contact-submit" class="submit" href="#">Envoyer</a>
                 </p>
                 
                 <div id="response">
@@ -419,16 +423,12 @@
         
         <div class="span3">
         	<div class="contact-details">
-        		<h3>Contact Details</h3>
+        		<h3>Contact</h3>
                 <ul>
-                    <li><a href="#">hello@brushed.com</a></li>
+                    <li><a href="#">agnes [point] jersyk [at] free [point] fr</a></li>
                     <li>(916) 375-2525</li>
                     <li>
-                        Brushed Studio
-                        <br>
-                        5240 Vanish Island. 105
-                        <br>
-                        Unknow
+                        Adresse du studio.
                     </li>
                 </ul>
             </div>
@@ -439,7 +439,7 @@
 </div>
 <!-- End Contact Section -->
 
-<!-- Twitter Feed -->
+<!-- Twitter Feed 
 <div id="twitter-feed" class="page-alternate">
 	<div class="container">
     	<div class="row">
@@ -456,7 +456,7 @@
 </div>
 <!-- End Twitter Feed -->
 
-<!-- Socialize -->
+<!-- Socialize
 <div id="social-area" class="page">
 	<div class="container">
     	<div class="row">
@@ -482,7 +482,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+	<p class="credits">&copy;Juin 2014 Agnès JERSYK. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed</a></p>
 </footer>
 <!-- End Footer -->
 
